@@ -1,0 +1,96 @@
+:root {
+  --background-color: #ffffff;
+  --brand-color: #2f303a;
+  --button-color: #2196f3;
+  --text-color: #212121;
+  --second-text: #757575;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--second-text);
+  font-family: Roboto;
+}
+
+/* menu nav */
+.web {
+  color: var(--button-color);
+}
+.studio {
+  color: var(--text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+/* info */
+.site-nav .link {
+  color: var(--text-color);
+}
+.site-nav .link.current {
+  color: var(--button-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--button-color);
+}
+
+.auth-nav .info {
+  color: var(--second-text);
+}
+.auth-nav .info:hover,
+.auth-nav .info:focus {
+  color: var(--button-color);
+}
+
+/* main */
+.hero-title {
+  color: var(--background-color);
+}
+
+.button-primary {
+  color: var(--background-color);
+  background-color: var(--button-color);
+}
+
+/* section */
+.section-title {
+  color: var(--text-color);
+}
+.feature-list .title {
+  color: var(--text-color);
+}
+
+.work-list .title {
+  color: var(--text-color);
+}
+
+.team-section .title {
+  color: var(--text-color);
+}
+.team-section .name {
+  color: var(--text-color);
+}
+
+/* footer logo*/
+.web-footer {
+  color: var(--background-color);
+}
+.studio-footer {
+  color: var(--button-color);
+}
+
+/* address */
+.info-nav .map {
+  color: var(--background-color);
+}
+
+.info-nav .mail-up {
+  color: rgba(255, 255, 255, 0.6);
+}
+.info-nav .tel-up {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* Стилі для Portfoio */
